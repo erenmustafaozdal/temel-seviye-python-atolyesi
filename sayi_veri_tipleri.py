@@ -1,17 +1,22 @@
 """
-İki tür sayı veri tipi vardır: integer, float
-    integer: 1,75, -26
-    float: 8.5, 16.4444, 0.0
+İki tür sayı veri tipi vardır: integer, float (numbers)
+    int: 1  ,   75   ,   -26
+    float: 8.5  ,   16.4444  ,  0.0, 1.0
 """
 
 # TAM SAYILARLA İŞLEM YAPALIM
 # //////////////////////////////////////////////////////////////////////////////
+# print(2+3)  # toplama işlemi
 
 # TAM SAYI VE ONDALIK SAYI İLE İŞLEM YAPALIM
 # //////////////////////////////////////////////////////////////////////////////
+# print(1.2*10)
 
 # SAYILARLA İŞLEM ÖNCELİĞİ
 # //////////////////////////////////////////////////////////////////////////////
+# print((2+3)*7+5)
 
 # VERİLERİN TİPİNE BAKALIM: type()
 # //////////////////////////////////////////////////////////////////////////////
+print(type(5))
+print(type(5.2))
