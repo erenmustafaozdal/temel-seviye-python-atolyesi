@@ -20,17 +20,30 @@ REFERANS VERİ TİPİ (REFERENCE TYPES)
 # //////////////////////////////////////////////////////////////////////////////
 
 # İki value veri tipi oluşturalım
+a = 1
+b = 2
 
 # İkinci değişkeni ilk değişkene atayalım
+a = b
 
 # İkinci değişkenin değerini değiştirdiğimizde, ilk değişken değişmiş mi kontrol edelim
+b = 3
+# print(a, b)
 
 
 # REFERENCE TYPES
 # //////////////////////////////////////////////////////////////////////////////
 
 # İki referans veri tipi oluşturalım
+x = [1,2,3]
+y = [4,5,6]
+print(x, y)
 
 # İkinci değişkeni ilk değişkene atayalım
+x = y
+# print(x, y)
+# exit()
 
 # İkinci değişkende değişiklik yaptığımızda, ilk değişken değişmiş mi kontrol edelim
+y[0] = 7
+print(x, y)

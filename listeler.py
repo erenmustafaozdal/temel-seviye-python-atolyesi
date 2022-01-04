@@ -1,36 +1,27 @@
-kelimeler  = "Temel Seviye Python Atölyesi".split()
+# Boş liste tanımlayalım -> []
+liste = []
+# print(liste)
+# print(type(liste))
 
+kelimeler  = "Temel Seviye Python Atölyesi".split()
 # Kelimeleri ekrana yazdır
+# ['Temel', 'Seviye', 'Python', 'Atölyesi']
+# print(kelimeler)
 
 # Belirli sıradaki kelimeleri ekrana yazdır
+# print(kelimeler[0])
+# print(kelimeler[1])
+# print(kelimeler[2])
+# print(kelimeler[3])
+# print(kelimeler[4])  # hata
 
 # Yeni bir liste tanımlayıp ekrana yazdıralım
+liste2 = [1, 25, "Python", True, 12.6, [1, 2, 3] ]
+# print(liste2)
 
 # İki liste tanımlayıp, bu listeleri birleştirelim
-
-# UYGULAMA
-# //////////////////////////////////////////////////////////////////////////////
-
-# 1- Öğrenci isim ve yaş bilgilerinden oluşan listeleri birleştirelim
-ogrenci_1 = ["Ahmet", 12]
-ogrenci_2 = ["Ayşe", 16]
-
-# 2- Birleştirilmiş listeden ikinci öğrencinin yaşını ekrana yazdıralım
-
-# 3- "Türkçe, Hayat Bilgisi, Matematik, Fen Bilimleri" elemanlarından oluşan liste oluşturalım
-
-# 4- Liste kaç elemanlıdır?
-
-# 5- Listenin ilk ve son elemanı nedir ?
-
-# 6- "Hayat Bilgisi" değerini "Sosyal Bilgiler" değeri ile değiştirelim
-
-# 7- "Coğrafya" listenin bir elemanı mıdır?
-
-# 8- Listenin ilk iki elemanını ekrana yazdıralım
-
-# 9- Listenin son 2 elemanı yerine "Görsel Sanatlar" ve "Müzik" değerlerini ekleyelim
-
-# 10- Listenin üzerine "Serbest Etkinlik" ve "Beden Eğitimi ve Oyun" değerlerini ekleyelim
-
-# 11- Listenin son elemanını silelim
+liste3 = [1, 2, 3]
+liste4 = [4, 5, 6]
+liste5 = liste3 + liste4
+liste6 = liste4 + liste3
+print(liste6)
